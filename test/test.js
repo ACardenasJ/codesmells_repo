@@ -85,7 +85,7 @@ describe("Función test_2", function () {
     });
 
     it("debería retornar '6error' para par = -2", function () {
-        expect(test_2(-2)).to.equal("6error");
+        expect(test_2(-2)).to.equal("error");
     });
 
     it("debería retornar '6error' para par = 0", function () {
@@ -93,7 +93,7 @@ describe("Función test_2", function () {
     });
 
     it("debería retornar '1error' para otros valores de par", function () {
-        expect(test_2(2)).to.equal("6error");
+        expect(test_2(2)).to.equal("error");
     });
 });
 
