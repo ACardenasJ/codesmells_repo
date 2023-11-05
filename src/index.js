@@ -109,5 +109,4 @@ function test_4() {
     return [myMap, mySet, fruits];
 }
 
-
 module.exports = { sumar, resta, multiplicar, dividir, add, test, test_2, foo, test_3, getIP, test_4, raiz, elevadoal2};
