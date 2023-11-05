@@ -1,7 +1,6 @@
 const { expect } = require("chai");
 const { sumar, resta, multiplicar, dividir, add, raiz, elevadoal2, test, test_2, getIP, test_3} = require("../src/index");
 
-
 describe("Calculadora", function () {
     
     it("debería sumar dos números correctamente", function () {
